@@ -1,0 +1,37 @@
+footer {
+  margin-top: 90px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+footer div p:first-child {
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+}
+footer div div {
+  display: flex;
+  flex-direction: column;
+}
+footer div div a {
+  color: #000;
+  text-align: center;
+  font-size: 36px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-underline-offset: 3px;
+}
+footer div div a:hover {
+  text-underline-offset: 8px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 750px) {
+  footer div p {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=footer.css.map */

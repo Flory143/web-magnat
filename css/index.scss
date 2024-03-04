@@ -1,0 +1,46 @@
+@import "normalize";
+@import "header";
+@import "main";
+@import "footer";
+
+@font-face {
+  font-family: "Jura";
+  src: url("/fonts/Jura-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Exo 2";
+  src: url("/fonts/Exo2-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1620px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  font-size: 24px;
+
+  h1 {
+    font-family: "Jura", sans-serif;
+    font-size: 96px;
+  }
+}
