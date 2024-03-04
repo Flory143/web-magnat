@@ -811,8 +811,8 @@ footer div div a:hover {
 }
 
 @media screen and (max-width: 750px) {
-  footer div p {
-    font-size: 24px;
+  footer div a {
+    font-size: 24px !important;
   }
 }
 @font-face {
