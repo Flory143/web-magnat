@@ -164,16 +164,16 @@ main .services .accordion {
           user-select: none;
 }
 main .services .accordion .first__article {
-  background-image: url("/img/background-1.jpg");
+  background-image: url("../img/background-1.jpg");
 }
 main .services .accordion .second__article {
-  background-image: url("/img/background-2.jpg");
+  background-image: url("../img/background-2.jpg");
 }
 main .services .accordion .third__article {
-  background-image: url("/img/background-3.jpg");
+  background-image: url("../img/background-3.jpg");
 }
 main .services .accordion .fourth__article {
-  background-image: url("/img/background-4.jpg");
+  background-image: url("../img/background-4.jpg");
 }
 main .services .accordion article {
   background-color: rgba(0, 0, 0, 0.7);
